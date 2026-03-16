@@ -1,0 +1,148 @@
+{
+  "T": 2.4,
+  "L0": 64,
+  "n_samples": 2000,
+  "seed": 24000,
+  "levels": [
+    {
+      "level": 0,
+      "L": 64,
+      "xi_fourier": 10.204,
+      "xi_fit": 4.125,
+      "xi_over_L": 0.1594,
+      "xi_second_moment": 5.571,
+      "series": {
+        "m4_fixed": {
+          "kappa": 0.21848030171023392,
+          "kappa_err": 0.0004822435943484943,
+          "ic": 0.8799465622329419,
+          "h_interior": 4.027578483482678,
+          "h_blanket": 4.383652759490584,
+          "mi_method": "magnetization",
+          "m": 4,
+          "n_samples": 2000,
+          "n_blocks": 150
+        },
+        "m2_fixed": {
+          "kappa": 0.3090433411241037,
+          "kappa_err": 0.0007005647655803758,
+          "ic": 0.9814587526344696,
+          "h_interior": 3.1757964726389023,
+          "h_blanket": 8.96373459939352,
+          "mi_method": "plugin",
+          "m": 2,
+          "n_samples": 2000,
+          "n_blocks": 150
+        },
+        "adaptive": {
+          "kappa": 0.2184630701434006,
+          "kappa_err": 0.0004292165490198974,
+          "ic": 0.8797031564621015,
+          "h_interior": 4.026781990588425,
+          "h_blanket": 4.38376281516416,
+          "mi_method": "magnetization",
+          "m": 4,
+          "n_samples": 2000,
+          "n_blocks": 150
+        }
+      }
+    },
+    {
+      "level": 1,
+      "L": 32,
+      "xi_fourier": 5.091,
+      "xi_fit": 2.06,
+      "xi_over_L": 0.1591,
+      "xi_second_moment": 3.039,
+      "series": {
+        "m4_fixed": {
+          "kappa": 0.17293826524773295,
+          "kappa_err": 0.0004528859763965568,
+          "ic": 0.7059094815636987,
+          "h_interior": 4.081858231620908,
+          "h_blanket": 4.297208136854999,
+          "mi_method": "magnetization",
+          "m": 4,
+          "n_samples": 2000,
+          "n_blocks": 150
+        },
+        "m2_fixed": {
+          "kappa": 0.25869961428814114,
+          "kappa_err": 0.000556822346799567,
+          "ic": 0.8707532978162983,
+          "h_interior": 3.365885566595581,
+          "h_blanket": 9.722126949064654,
+          "mi_method": "plugin",
+          "m": 2,
+          "n_samples": 2000,
+          "n_blocks": 150
+        },
+        "adaptive": {
+          "kappa": 0.25947580595239056,
+          "kappa_err": 0.0005641969060642143,
+          "ic": 0.8745349799928017,
+          "h_interior": 3.370391226969593,
+          "h_blanket": 9.732764485951847,
+          "mi_method": "plugin",
+          "m": 2,
+          "n_samples": 2000,
+          "n_blocks": 150
+        }
+      }
+    },
+    {
+      "level": 2,
+      "L": 16,
+      "xi_fourier": 2.587,
+      "xi_fit": 0.973,
+      "xi_over_L": 0.1617,
+      "xi_second_moment": 1.747,
+      "series": {
+        "m4_fixed": {
+          "kappa": 0.10845665576602694,
+          "kappa_err": 0.00044033539613966917,
+          "ic": 0.4364206637403834,
+          "h_interior": 4.023917763810381,
+          "h_blanket": 4.065192068508839,
+          "mi_method": "magnetization",
+          "m": 4,
+          "n_samples": 2000,
+          "n_blocks": 150
+        },
+        "m2_fixed": {
+          "kappa": 0.20817110373747946,
+          "kappa_err": 0.0003743049906490131,
+          "ic": 0.7448502271918205,
+          "h_interior": 3.5780673389287334,
+          "h_blanket": 10.529183352651692,
+          "mi_method": "plugin",
+          "m": 2,
+          "n_samples": 2000,
+          "n_blocks": 150
+        },
+        "adaptive": {
+          "kappa": 0.2074782151314098,
+          "kappa_err": 0.0004905934461287523,
+          "ic": 0.7420850243983741,
+          "h_interior": 3.576688877568964,
+          "h_blanket": 10.533217353420756,
+          "mi_method": "plugin",
+          "m": 2,
+          "n_samples": 2000,
+          "n_blocks": 150
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "n_equil": 3000,
+    "thinning": 5,
+    "alpha": 0.5,
+    "n_blocks": 150,
+    "n_bootstrap": 30,
+    "c_adaptive": 2.0,
+    "numba": true,
+    "timestamp": "2026-03-16T02:47:13.667747+00:00",
+    "runtime_seconds": 33.6
+  }
+}

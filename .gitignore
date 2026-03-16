@@ -22,9 +22,8 @@ env/
 .DS_Store
 Thumbs.db
 
-# Project
-results/*.json
-!results/.gitkeep
+# Project — results are small JSON, keep them in repo
+# results/*.json
 
 # Numba cache
 __pycache__/

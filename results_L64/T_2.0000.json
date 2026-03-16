@@ -1,0 +1,148 @@
+{
+  "T": 2.0,
+  "L0": 64,
+  "n_samples": 2000,
+  "seed": 20000,
+  "levels": [
+    {
+      "level": 0,
+      "L": 64,
+      "xi_fourier": 64.0,
+      "xi_fit": 0.981,
+      "xi_over_L": 1.0,
+      "xi_second_moment": 1.762,
+      "series": {
+        "m4_fixed": {
+          "kappa": 0.40048714276004943,
+          "kappa_err": 0.0005324054481183089,
+          "ic": 1.0548942662658836,
+          "h_interior": 2.634027796737335,
+          "h_blanket": 2.877717768110113,
+          "mi_method": "magnetization",
+          "m": 4,
+          "n_samples": 2000,
+          "n_blocks": 150
+        },
+        "m2_fixed": {
+          "kappa": 0.49125691286027506,
+          "kappa_err": 0.000774543727700864,
+          "ic": 1.1139197235703358,
+          "h_interior": 2.2674891577294924,
+          "h_blanket": 5.029077239781087,
+          "mi_method": "plugin",
+          "m": 2,
+          "n_samples": 2000,
+          "n_blocks": 150
+        },
+        "adaptive": {
+          "kappa": 0.39949790434391874,
+          "kappa_err": 0.0003609067226091271,
+          "ic": 1.0543252965401257,
+          "h_interior": 2.6391259755707774,
+          "h_blanket": 2.875407502683974,
+          "mi_method": "magnetization",
+          "m": 4,
+          "n_samples": 2000,
+          "n_blocks": 150
+        }
+      }
+    },
+    {
+      "level": 1,
+      "L": 32,
+      "xi_fourier": 32.0,
+      "xi_fit": 0.56,
+      "xi_over_L": 1.0,
+      "xi_second_moment": 1.26,
+      "series": {
+        "m4_fixed": {
+          "kappa": 0.4849678260625161,
+          "kappa_err": 0.0006593328329862302,
+          "ic": 1.019626972248062,
+          "h_interior": 2.1024631273511,
+          "h_blanket": 2.272575618172846,
+          "mi_method": "magnetization",
+          "m": 4,
+          "n_samples": 2000,
+          "n_blocks": 150
+        },
+        "m2_fixed": {
+          "kappa": 0.5615740556403279,
+          "kappa_err": 0.0006071032713297734,
+          "ic": 1.1420597633012768,
+          "h_interior": 2.033676149798368,
+          "h_blanket": 4.072841857236615,
+          "mi_method": "plugin",
+          "m": 2,
+          "n_samples": 2000,
+          "n_blocks": 150
+        },
+        "adaptive": {
+          "kappa": 0.56242823781782,
+          "kappa_err": 0.0009113848617778783,
+          "ic": 1.141380695178826,
+          "h_interior": 2.029380138535182,
+          "h_blanket": 4.072771719600524,
+          "mi_method": "plugin",
+          "m": 2,
+          "n_samples": 2000,
+          "n_blocks": 150
+        }
+      }
+    },
+    {
+      "level": 2,
+      "L": 16,
+      "xi_fourier": 16.0,
+      "xi_fit": 16.0,
+      "xi_over_L": 1.0,
+      "xi_second_moment": 1.0,
+      "series": {
+        "m4_fixed": {
+          "kappa": 0.6604933015529895,
+          "kappa_err": 0.0010169254388668236,
+          "ic": 1.0038921271704373,
+          "h_interior": 1.5199126543903305,
+          "h_blanket": 1.6089218128635323,
+          "mi_method": "magnetization",
+          "m": 4,
+          "n_samples": 2000,
+          "n_blocks": 150
+        },
+        "m2_fixed": {
+          "kappa": 0.6629782675438861,
+          "kappa_err": 0.0007557020585923284,
+          "ic": 1.1957166533258126,
+          "h_interior": 1.8035533166955002,
+          "h_blanket": 3.173281686692043,
+          "mi_method": "plugin",
+          "m": 2,
+          "n_samples": 2000,
+          "n_blocks": 150
+        },
+        "adaptive": {
+          "kappa": 0.662394876817577,
+          "kappa_err": 0.0008248902009470061,
+          "ic": 1.1957905187612365,
+          "h_interior": 1.8052532720456957,
+          "h_blanket": 3.1690602152970864,
+          "mi_method": "plugin",
+          "m": 2,
+          "n_samples": 2000,
+          "n_blocks": 150
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "n_equil": 3000,
+    "thinning": 5,
+    "alpha": 0.5,
+    "n_blocks": 150,
+    "n_bootstrap": 30,
+    "c_adaptive": 2.0,
+    "numba": true,
+    "timestamp": "2026-03-16T02:38:11.487768+00:00",
+    "runtime_seconds": 32.7
+  }
+}

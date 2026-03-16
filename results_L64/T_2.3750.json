@@ -1,0 +1,148 @@
+{
+  "T": 2.375,
+  "L0": 64,
+  "n_samples": 2000,
+  "seed": 23750,
+  "levels": [
+    {
+      "level": 0,
+      "L": 64,
+      "xi_fourier": 11.854,
+      "xi_fit": 4.584,
+      "xi_over_L": 0.1852,
+      "xi_second_moment": 5.855,
+      "series": {
+        "m4_fixed": {
+          "kappa": 0.22820901992320386,
+          "kappa_err": 0.00044209671959645084,
+          "ic": 0.9140666191007314,
+          "h_interior": 4.0053921593823505,
+          "h_blanket": 4.386460394791506,
+          "mi_method": "magnetization",
+          "m": 4,
+          "n_samples": 2000,
+          "n_blocks": 150
+        },
+        "m2_fixed": {
+          "kappa": 0.31850807430207534,
+          "kappa_err": 0.000755974973908054,
+          "ic": 0.9997234079476364,
+          "h_interior": 3.1387694335167513,
+          "h_blanket": 8.809782278624759,
+          "mi_method": "plugin",
+          "m": 2,
+          "n_samples": 2000,
+          "n_blocks": 150
+        },
+        "adaptive": {
+          "kappa": 0.2284463168106877,
+          "kappa_err": 0.00041590800322954146,
+          "ic": 0.9151778677030027,
+          "h_interior": 4.006095963724405,
+          "h_blanket": 4.3869322163148805,
+          "mi_method": "magnetization",
+          "m": 4,
+          "n_samples": 2000,
+          "n_blocks": 150
+        }
+      }
+    },
+    {
+      "level": 1,
+      "L": 32,
+      "xi_fourier": 5.928,
+      "xi_fit": 2.268,
+      "xi_over_L": 0.1852,
+      "xi_second_moment": 3.171,
+      "series": {
+        "m4_fixed": {
+          "kappa": 0.18873704458838678,
+          "kappa_err": 0.0003639133283087163,
+          "ic": 0.7691609237647375,
+          "h_interior": 4.075304482181475,
+          "h_blanket": 4.334038928367999,
+          "mi_method": "magnetization",
+          "m": 4,
+          "n_samples": 2000,
+          "n_blocks": 150
+        },
+        "m2_fixed": {
+          "kappa": 0.2700511131919571,
+          "kappa_err": 0.000637938107510484,
+          "ic": 0.8973798828318224,
+          "h_interior": 3.323000124772486,
+          "h_blanket": 9.546151064265384,
+          "mi_method": "plugin",
+          "m": 2,
+          "n_samples": 2000,
+          "n_blocks": 150
+        },
+        "adaptive": {
+          "kappa": 0.2699767922730092,
+          "kappa_err": 0.0005172186132095259,
+          "ic": 0.898445251152476,
+          "h_interior": 3.327861049048762,
+          "h_blanket": 9.550191090567633,
+          "mi_method": "plugin",
+          "m": 2,
+          "n_samples": 2000,
+          "n_blocks": 150
+        }
+      }
+    },
+    {
+      "level": 2,
+      "L": 16,
+      "xi_fourier": 2.981,
+      "xi_fit": 1.078,
+      "xi_over_L": 0.1863,
+      "xi_second_moment": 1.81,
+      "series": {
+        "m4_fixed": {
+          "kappa": 0.12852218974337795,
+          "kappa_err": 0.00045358234378276534,
+          "ic": 0.5213209109873672,
+          "h_interior": 4.056271621486499,
+          "h_blanket": 4.15054368432302,
+          "mi_method": "magnetization",
+          "m": 4,
+          "n_samples": 2000,
+          "n_blocks": 150
+        },
+        "m2_fixed": {
+          "kappa": 0.22510186123220222,
+          "kappa_err": 0.0005206707966918227,
+          "ic": 0.791230068605373,
+          "h_interior": 3.5149867898657012,
+          "h_blanket": 10.310794656569495,
+          "mi_method": "plugin",
+          "m": 2,
+          "n_samples": 2000,
+          "n_blocks": 150
+        },
+        "adaptive": {
+          "kappa": 0.22530638370898326,
+          "kappa_err": 0.0005911574771384875,
+          "ic": 0.7929842970133062,
+          "h_interior": 3.5195820196446963,
+          "h_blanket": 10.309752003869455,
+          "mi_method": "plugin",
+          "m": 2,
+          "n_samples": 2000,
+          "n_blocks": 150
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "n_equil": 3000,
+    "thinning": 5,
+    "alpha": 0.5,
+    "n_blocks": 150,
+    "n_bootstrap": 30,
+    "c_adaptive": 2.0,
+    "numba": true,
+    "timestamp": "2026-03-16T02:46:40.091105+00:00",
+    "runtime_seconds": 33.6
+  }
+}
